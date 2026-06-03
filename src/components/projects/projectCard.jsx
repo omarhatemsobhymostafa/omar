@@ -16,11 +16,11 @@ export default function projectCard(props) {
             <p class="text-gray-500 dark:text-gray-400">
                 {props.description}
             </p>
-            <button class="mt-4 inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800">
-                <a href={"https://".concat(props.link)} target="_blank" >
-                    View Project
+                <a href={"https://".concat(props.link)} target="_blank"  >
+                                <button class="mt-4 inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800">
+                                    View Project    
+                                </button>
                 </a>
-            </button>
 
         </div>
     )
