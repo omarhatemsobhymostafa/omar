@@ -10,6 +10,7 @@ export default function AboutMe() {
           <img
             className="md:w-48 rounded-lg md:flex hidden"
             src="logo.png"
+            alt="About Me Image"
           />
         </div>
 

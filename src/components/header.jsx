@@ -2,12 +2,7 @@ import React, { useState } from 'react'
 
 export default function Header() {
     const [isOpen, setIsOpen] = useState(false)
-const scrollToSection = (id) => {
-  document.getElementById(id)?.scrollIntoView({
-    behavior: "smooth",
-    block: "start",
-  });
-};
+
     return (
         <nav className="bg-black fixed w-full  z-20 top-0 ">
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
@@ -18,7 +13,7 @@ const scrollToSection = (id) => {
                 </a>
 
                 <button
-                    onClick={() => setIsOpen(!isOpen)}
+                 
                     type="button"
                     className="inline-flex items-center p-2 w-10 h-10 justify-center md:hidden"
                     aria-expanded={isOpen}
