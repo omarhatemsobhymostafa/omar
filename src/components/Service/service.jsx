@@ -2,7 +2,7 @@ import React from 'react'
 import ServiceCard from './serviceCard'
 export default function service() {
     return (
-        <section class="bg-white dark:bg-gray-900 py-10 px-4 text-center w-full " id="services" >
+        <section class="bg-gray-900 dark:bg-gray-900 py-10 px-4 text-center w-full " id="services" >
             <div class="max-w-screen-xl mx-auto text-center w-full ">
 
 
